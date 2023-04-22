@@ -1,0 +1,114 @@
+*
+{
+ padding:0px;
+ margin:0px;
+ font-family:sans-serif;
+ 
+
+}
+
+/*body color*/
+body
+{
+
+   background-color: #b5c7e3;
+    
+ }
+
+
+ /* form positioning*/
+.form_body
+{  
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+/* form structure*/
+#form_div
+{  
+    margin-top: 25px;
+    width:700px;
+    height:1250px;
+    background-color:rgba(125,125,275, 0.3);
+    border-radius: 25px; 
+    border-width: 10px;
+    box-shadow:-30px 30px  20px rgba(0,0,0, 0.5);
+    color:black;
+    font-size:16px;
+    position: absolute;
+}
+
+#register
+
+{
+    margin:50px;
+
+}
+h1
+{
+    margin:20px;
+    text-align:center;
+}
+
+label
+{
+    font-size:20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:0px;
+   
+    
+}
+.text
+{
+    width:500px;
+    padding:7px;
+    margin-top:7px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255,0.2);
+
+}
+#button
+{
+    width: 200px;
+    color:white;
+    background-color:orangered;
+    padding:10px;
+    margin:10px;
+    border:2px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px white;
+    
+
+}
+label,h1
+{
+    text-shadow: 1px 1px 6px rgba(255,255,255,0.9);
+    text-transform: uppercase;
+}
+
+#date,#select
+{
+    margin-left: 150px;
+    margin-top:10px;
+    border:1px solid;
+    border-radius:4px;
+    box-shadow:2px 2px 8px rgba(0,0,0,0.7);
+}
+
+#radio
+{
+    padding:5px;
+    margin-left: 135px;
+    margin-bottom:px;
+    margin-top: 10px;
+}
+
+#checkbox
+{
+    padding:5px;
+    margin-left: 135px;
+    margin-bottom:2px;
+    margin-top: 10px;
+}

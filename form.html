@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Registration form</title>
+<script type="text/javascript" src="valid.js" ></script>
+<link rel="stylesheet" href="assignment.css">
+</head>
+<div class="form_body">
+<body >
+<div id="form_div">
+<form  id="register" method="post" action="p1.php">
+	<div id="title">
+	<h1 >Registration form </h1>
+</div>
+	<div id="form_divide">
+	<label for="fname" name="first_name"  >first name:</label><br>
+	<input type="text"  id="fname" class="text" placeholder="enter first name" autofocus><br>
+	<label for="lname" name="last_name">last name:</label><br>
+    <input type="text" id="lname" class="text" placeholder="enter last name"><br><br>
+	<label id="chech_box">occupation:</label><br>
+	<input  type="radio" id="radio" name="branch" value="mechnical">student<br>
+	<input  type="radio" id="radio" name="branch" value="civil">teacher<br>
+	<input  type="radio" id="radio" name="branch" value="electronics">professor<br>
+	<input  type="radio" id="radio" name="branch" value="computer">other<br><br>
+
+<label >select number of course:</label><br>
+<input type="checkbox" id="checkbox" name="lan" value="pen">Penetration testing and ethical hacking<br>
+<input type="checkbox" id="checkbox" name="lan" value="cyber">Cybersecurity Fundamentals <br>
+<input type="checkbox" id="checkbox" name="lan" value="copt">CompTIA PenTest+ Certification Training <br>
+<input type="checkbox" id="checkbox" name="lan" value="ethical">Learn Ethical Hacking From Scratch <br><br>
+
+<label>select country name:</label><br>
+<select id="select">
+<option value="india">india</option>
+<option value="america">america</option>
+<option value="china">china</option>
+<option value="england">england</option>
+<option value="africa">africa</option>	
+</select>
+<br><br>
+
+<label  ><b>date of birth:<b></label><br>
+<input  id="date" type="date" name="date"><br><br>
+
+<label >upload photo:</label>
+<input type="file" id="myfile" name="filename" required ><br><br>
+<label for="select">learning hour</label><br>
+<input type="number" id="select" min="1" max="24"><br><br>
+<label for="a"><b>range from </b></label><br>
+<input type="range" id="a"   min="10" max="40"><br>
+<label><b>background image colour<b></label>
+<input type="color" name="color"><br><br>
+
+<label for="email">email </label><br>
+<input type="email"  class="text" name="email" required><br><br>
+<label for="passwd">password</label><br>
+<input type="password" class="text" name="password" autocomplete ><br><br>
+
+<input  id="button" type="submit" value="SUBMIT">
+<input  id="button" type="reset" value="RESET">
+</div>
+</form>
+</div>
+</body>
+</div>
+</html>
